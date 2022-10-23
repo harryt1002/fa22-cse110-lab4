@@ -1,4 +1,4 @@
-1. Line 12 will rpint out the value of the counter i since it was declared as a var. Because it was delcared as a var, the scope is within the function.
+1. Line 12 will print out the value of the counter i since it was declared as a var. Because it was delcared as a var, the scope is within the function.
 2. Line 13 will print 150. discountedPrice is a variable declared as a var so its scope is within the function.
 3. Line 14 will print 150. finalPrice is a variable declared as a var so its scope is within the function.
 4. This function will return an array with the discounted prices. The code loops through the prices array and calculates a discounted price. The code has no errors in terms of variables since all of them were declared as a var which means the scope is within the function.
