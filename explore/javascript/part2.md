@@ -9,8 +9,19 @@
 9. The code causes an error since the scope of variable i is only that of the for loop.
 10. Line 12 will print out "3" as the scope of const length is that of the function
 11. The function will return the array of discounted prices. This works because you can still push items into a const array.
+```
 12 A. student.name
 12 B. student['Grad Year']
 12 C. student.greeting()
 12 D. student['Grad Year'].name
 12 E. student.courseLoad[0]
+```
+```
+13 A. "32" since the integer 2 is identical with it string representation
+13 B. 1 since the subtraction operator is not overloaded so the "3" becomes a 3
+13 C. 3 since null's integer representation is 0
+13 D. "3null" since null is treated as a string
+13 E. 4 since true is represented by 1 as an integer
+13 F. 0 since false and null are represented by 0 as an integer
+13 G. 
+13 H.
