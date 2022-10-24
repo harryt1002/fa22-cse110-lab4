@@ -35,3 +35,4 @@
 14 F. true since Boolean() of any value that is not related to false is true and since both sides are the same type the strict equality runs into no issues
 ```
 15. The == operator will type convert both sides of the operator to see if they are equal to each other. The === operator will see if both sides are equal without type conversion. So 2 == '2' will return true since the operator will type convert the string to an integer. However, the === operator won't type convert the string; therefore the items are not equal to each other.
+17. The result of newArr will be [2, 4, 6]. Before the integer is pushed to newArr, the doSomething function is called to double the integer in the original array. After the call back, the new integer is pushed.

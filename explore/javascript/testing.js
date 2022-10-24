@@ -1,4 +1,13 @@
-var x = true;
-var y = Boolean(2);
+function modifyArray(array, callback) {
+    const newArr = [];
+    for (let i = 0; i < array.length; i++) {
+        newArr.push(callback(array[i]));
+    }
+    return newArr;
+}
 
-console.log(x === y);
+function doSomething(num) {
+    return num * 2;
+}
+
+modifyArray([1,2,3], doSomething);
