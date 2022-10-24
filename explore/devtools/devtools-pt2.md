@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were strings so adding them together only concatenated them.
+2. I would fix it by using the parseInt() function on num1 and num2 to turn the types from string to integer.
