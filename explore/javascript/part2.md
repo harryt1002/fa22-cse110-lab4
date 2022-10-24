@@ -23,5 +23,15 @@
 13 D. "3null" since null is treated as a string
 13 E. 4 since true is represented by 1 as an integer
 13 F. 0 since false and null are represented by 0 as an integer
-13 G. 
-13 H.
+13 G. 3undefined since undefined becomes a string representation
+13 H. NaN since the subtraction operator is not overloaded the undefined becomes a NaN
+```
+```
+14 A. true since '2' turns into an integer
+14 B. false since '2' is greater than '1' alphabetically and '2' is the shorter string
+14 C. true since '2' becomes and integer
+14 D. false since the strict equality operator doesn't convert types
+14 E. false since true becomes 1 as an integer representation
+14 F. true since Boolean() of any value that is not related to false is true and since both sides are the same type the strict equality runs into no issues
+```
+15. The == operator will type convert both sides of the operator to see if they are equal to each other. The === operator will see if both sides are equal without type conversion. So 2 == '2' will return true since the operator will type convert the string to an integer. However, the === operator won't type convert the string; therefore the items are not equal to each other.

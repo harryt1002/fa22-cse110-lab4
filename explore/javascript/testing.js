@@ -1,4 +1,4 @@
-var x = false;
-var y = null;
+var x = true;
+var y = Boolean(2);
 
-console.log(x + y);
+console.log(x === y);
